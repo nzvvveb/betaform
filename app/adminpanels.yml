@@ -1,0 +1,7 @@
+---
+Name: dashboarddefaultadmin
+After: cmsdefaultadmin #Override the CMS module's setting (if CMS is installed)
+---
+
+SilverStripe\Admin\AdminRootController:
+  default_panel: 'App\FormDashboard'
